@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Denpa Engine" file="DenpaEngine" packageName="com.detean.denpaengine" package="com.deteam.denpaengine" main="Main" version="0.2.8" company="DETeam" />
+	<app title="Friday Night Funkin': V.S. Dave & Bambi: Starstruck Edition" file="VsDaveStarstruck" packageName="com.vistaobjectshow.vdabstarstruck" package="com.vistaobjectshow.vdabstarstruck" main="Main" version="0.2.8" company="VistaObjectShow" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/>
@@ -40,7 +40,7 @@
 	<define name="VIDEOS_ALLOWED" if="desktop || web" unless="32bits"/> <!-- COMMENT OUT TO DISABLE VIDEOS -->
 	<define name="DENPA_WATERMARKS"/> <!-- COMMENT OUT THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->
 	<define name="CRASH_HANDLER" if="desktop release" /> <!-- COMMENT OUT TO DISABLE CRASH HANDLER -->
-	<!-- <define name="DSIABLE_OPTIMIZE"/> --> <!-- DO NOT UNCOMMENT THIS! -->
+	<!-- <define name="DSIABLE_OPTIMIZE"/> --> <!-- probably misspelled but still dont uncomment this -->
 
 	<!-- <define name="PRELOAD_ALL" unless="web" /> --> <!-- UNCOMMENT THIS TO DISABLE LOADING SCREEN -->
 	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
